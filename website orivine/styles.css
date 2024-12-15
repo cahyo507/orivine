@@ -1,0 +1,292 @@
+/* Reset untuk margin, padding dan box-sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body dasar */
+body {
+    font-family: 'Exo 2', bold;
+    color: #fff;
+    line-height: 1.6;
+}
+
+/* Pengaturan Header dan Logo */
+.header-logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.header-logo {
+    width: 60px;
+    height: 75px;
+}
+
+h1 {
+    font-size: 3em;
+    color: #fff;
+}
+p {
+    font-size: 4em;
+}
+
+/* Styling untuk Menu Navigasi */
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 15px 0;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+nav ul li a {
+    color: #fff;
+    font-size: 1.2rem;
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #f9c74f;
+}
+
+/* Halaman 1: Home */
+#home-page {
+    background-color: rgb(12, 12, 12);
+    background-size: cover;
+    padding: 10px 10px;
+    text-align: center;
+    color: #fff;
+    position: relative;
+    animation: fadeIn 2s ease-out;
+}
+
+#home-page h1 {
+    font-size: 4em;
+    font-weight: bold;
+}
+
+#home-page p {
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+
+/* Halaman 2: About Us */
+#about-page {
+    background: url('bg.png') no-repeat center center scroll;
+    background-size: cover;
+    color: #fff;
+    padding: 250px 20px;
+    position: relative;
+}
+
+#about-page .about-section {
+    border-radius: 30%;
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.24);
+    animation: slideIn 2s ease-out;
+}
+
+#about-page .about-section h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+#about-page .about-section p {
+    font-size: 1.2rem;
+}
+
+#driven-page .driven-section {
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    animation: fadeInRight 2s ease-out;
+}
+
+#driven-page .driven-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+#driven-page .driven-section p {
+    font-size: 1.2rem;
+}
+
+/* Halaman 4: Collections */
+#collections-page {
+    background: url('ORIVINE.png') no-repeat center center scroll;
+    background-size: cover;
+    padding: 80px 20px;
+}
+
+#collections-page .slogan {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#collections-page .slogan p {
+    font-size: 2rem;
+    color: #fff;
+}
+
+.collections {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.collection-item {
+    border-radius: 35%;
+    width: 250px;
+    text-align: center;
+    border: 2px solid #fff;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease;
+}
+
+.collection-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.collection-item h3 {
+    margin-top: 10px;
+    font-size: 1.5rem;
+}
+
+.collection-item a {
+    text-decoration: none;
+    color: #f9c74f;
+    font-weight: bold;
+    font-size: 1rem;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.collection-item:hover {
+    transform: scale(1.05);
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* Halaman 5: Philosophy */
+#philosophy-page {
+    background: url('O.png') no-repeat center center scroll;
+    background-size: cover;
+    color: #fff;
+    padding: 80px 20px;
+}
+
+#philosophy-page .philosophy-section {
+    border-radius: 30%;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.6);
+    animation: fadeInUp 2s ease-out;
+}
+
+#philosophy-page .philosophy-section h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+#philosophy-page .philosophy-section p {
+    font-size: 1.2rem;
+}
+
+/* Halaman 6: Contact */
+#contact-page {
+    font-family: 'exo 2' bold;
+    background-color: #000000;
+    background-size: cover;
+    color: #ffffff;
+    padding: 10px 10px;
+}
+footer {
+    font-weight: bold;
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 40px;
+}
+
+footer p{
+    font-family: 'exo 2' bold;
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 20px;
+}
+
+footer p {
+    margin-bottom: 15px;
+}
+
+footer a {
+    color: #f9c74f;
+    text-decoration: none;
+    font-weight: lighter;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: #fff;
+}
+
+/* Animasi */
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+@keyframes slideIn {
+    0% { transform: translateX(-100%); opacity: 0; }
+    100% { transform: translateX(0); opacity: 1; }
+}
+
+@keyframes fadeInRight {
+    0% { transform: translateX(100%); opacity: 0; }
+    100% { transform: translateX(0); opacity: 1; }
+}
+
+@keyframes fadeInUp {
+    0% { transform: translateY(100%); opacity: 0; }
+    100% { transform: translateY(0); opacity: 1; }
+}
+
+/* Responsivitas */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header-logo-container {
+        flex-direction: column;
+    }
+
+    .collections {
+        flex-direction: column;
+    }
+
+    .collection-item {
+        width: 100%;
+    }
+}
