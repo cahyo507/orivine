@@ -179,7 +179,7 @@ body {
     display: flex;
     justify-content: space-around;
     padding: 4rem 2rem;
-    background-color: #f8f8f8;
+    background-color: #222;
     gap: 3rem;
 }
 
@@ -211,28 +211,6 @@ body {
     color: #222;
 }
 
-/* Vision Section */
-.vision {
-    background-color: #222;
-    color: #fff;
-    padding: 4rem 2rem;
-    text-align: center;
-}
-
-.vision h2 {
-    font-size: 2.5rem;
-    font-weight: 700;
-    margin-bottom: 1.5rem;
-}
-
-.vision p {
-    font-size: 1.2rem;
-    color: #ccc;
-    max-width: 900px;
-    margin: 0 auto;
-    line-height: 1.6;
-}
-
 /* New Arrivals Section */
 .new-arrivals {
     padding: 4rem 2rem;
@@ -241,7 +219,7 @@ body {
 
 .new-arrivals h2 {
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 4rem;
     font-weight: 700;
     margin-bottom: 2rem;
 }
@@ -291,6 +269,28 @@ body {
     color: #e6b800;
 }
 
+/* Vision Section */
+.vision {
+    background-color: #fff;
+    color: #222;
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+.vision h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+
+.vision p {
+    font-size: 1.2rem;
+    color: #222;
+    max-width: 900px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
 /* Footer */
 .footer {
     background-color: #222;
@@ -302,12 +302,12 @@ body {
 .footer-content h2 {
     font-size: 4rem;
     font-weight: 700;
-    margin-bottom: 1rem;
+    margin-bottom: 0.3rem;
 }
 
 .footer p {
-    font-size: 0.5rem;
-    margin-bottom: 1rem;
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
 }
 
 .footer-links {
@@ -317,7 +317,7 @@ body {
 .footer-links a {
     color: #ffd700;
     text-decoration: none;
-    font-size: 1.1rem;
+    font-size: 1.5rem;
     margin: 0 1rem;
     transition: color 0.3s ease-in-out;
 }
@@ -329,12 +329,17 @@ body {
 .contact-info a {
     color: #ffd700;
     text-decoration: none;
-    font-size: 0.5rem;
+    font-size: 1.5rem;
     transition: color 0.3s ease-in-out;
 }
 
 .contact-info a:hover {
     color: #e6b800;
+}
+
+.copy-right p{
+    margin-top: 10rem;
+
 }
 
 /* Media Queries for Responsiveness */
